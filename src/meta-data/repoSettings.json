@@ -1,8 +1,9 @@
 {
-  "repoName": "sick-fits-backend",
+  "repoName": "reach-router",
   "userName": "barhoring",
-  "uri_format": "https://raw.githubusercontent.com/barhoring",
-  "repo_link": "https://github.com/barhoring/sick-fits-backend",
-  "githubCommitLink": "https://github.com/barhoring/sick-fits-backend/blob",
-  "chapter_base_uri": ""
+  "chapter_uri": "gitty-markdown",
+  "GITHUB_CONTENT_BASE": "https://raw.githubusercontent.com",
+  "githubLink": "https://github.com",
+  "githubCommitLink": "https://github.com/barhoring/reach-router/blob",
+  "chapterRepo": "gitty-markdown"
 }

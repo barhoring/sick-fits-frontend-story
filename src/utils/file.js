@@ -2,7 +2,13 @@
 
 import repoSettings from "../meta-data/repoSettings.json"
 
-const { repoName, uri_format, githubCommitLink } = repoSettings
+const { repoName, githubLink, userName, GITHUB_CONTENT_BASE } = repoSettings
+
+const getExt = (file) => {
+  const index = file.lastIndexOf(".")
+  const ext = file.substring(index + 1, file.length)
+  return ext
+}
 
 const getLanguage = (file) => {
   const ext = getExt(file)
@@ -15,12 +21,6 @@ const getLanguage = (file) => {
   return "text"
 }
 
-const getExt = (file) => {
-  const index = file.lastIndexOf(".")
-  const ext = file.substring(index + 1, file.length)
-  return ext
-}
-
 const getFileName = (file) => {
   const index = file.lastIndexOf("/")
   const name = file.substring(index + 1, file.length)
@@ -31,14 +31,20 @@ const getFileName = (file) => {
 // TODO change repo name to new repo
 // const repoName = "reach-router";
 // const repoName = "sick-fits-frontend";
+
+// "GITHUB_CONTENT_BASE": "https://raw.githubusercontent.com",
+// "uri_format": "https://raw.githubusercontent.com/barhoring",
+
 const getFileUri = (hash, fileName) => {
-  const uri = `${uri_format}/${repoName}/${hash}/${fileName}`
+  const uri = `${GITHUB_CONTENT_BASE}/${userName}/${repoName}/${hash}/${fileName}`
   return uri
 }
 
 // const githubCommitLink = `https://github.com/barhoring/sick-fits-frontend/blob/`;
+// "githubCommitLink": "https://github.com/barhoring/reach-router/blob",
+
 const getGithubCommitLink = (hash, fileName) =>
-  `${githubCommitLink}/${hash}/${fileName}`
+  `${githubLink}/${userName}/${repoName}/blob/${hash}/${fileName}`
 
 const objectToString = (obj) => JSON.stringify(obj, null, "\t")
 

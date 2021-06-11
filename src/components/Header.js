@@ -1,7 +1,6 @@
 import { FormControlLabel, Switch } from "@material-ui/core/"
 import React, { useContext, useState, useEffect } from "react"
-import { repoName, userName, repo_link } from "../meta-data/repoSettings.json"
-
+import { repoName, userName, githubLink } from "../meta-data/repoSettings.json"
 import { ThemeContext } from "../ThemeContext"
 import Typography from "@material-ui/core/Typography"
 import { AppBar, Toolbar, IconButton } from "@material-ui/core"
@@ -29,14 +28,13 @@ const HideOnScroll = (props) => {
 
 const Header = () => {
   const [userImage, setUserImage] = useState(null)
-  // const githubUri = getGithubAPIUri(author)
+
+  const repo_link = `${githubLink}/${userName}/${repoName}`
 
   useEffect(() => {
     fetch(`${githubUsersAPI}/${userName}`)
-      // fetch(githubUri)
       .then((res) => res.json())
       .then((res) => {
-        debugger
         setUserImage(res.avatar_url)
       })
   }, [])

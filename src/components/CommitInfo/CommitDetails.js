@@ -16,13 +16,11 @@ const CommitDetails = ({ hash, authorName }) => {
         const data = response.data.items[0]
         const { login, avatar_url } = data
         setCommiterDetails({ commiter: login, avatar_url })
-        debugger
       })
       .catch(function (error) {
         console.log(error)
       })
       .then(function () {
-        debugger
         console.log("always")
         // always executed
       })

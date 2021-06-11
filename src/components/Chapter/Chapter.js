@@ -3,7 +3,7 @@ import MarkdownPreview from "@uiw/react-markdown-preview"
 import { fetchRawGithubFile } from "../../utils"
 import useStyles from "./useStyles"
 import { Paper } from "@material-ui/core"
-import { chapter_base_uri as filePath } from "../../meta-data/repoSettings.json"
+import { chapterRepo as filePath } from "../../meta-data/repoSettings.json"
 // const filePath = `https://raw.githubusercontent.com/barhoring/gitty-markdown/master`;
 
 const Chapter = ({ hash }) => {

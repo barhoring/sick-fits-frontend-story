@@ -1,4 +1,11 @@
 import axios from "axios"
+import {
+  GITHUB_CONTENT_BASE,
+  chapterRepo,
+  userName,
+  repoName,
+  githubLink,
+} from "../meta-data/repoSettings.json"
 
 const fetchRawGithubFile = (filePath, setText, setFileType) => {
   axios
@@ -27,14 +34,22 @@ const fetchRawGithubFile = (filePath, setText, setFileType) => {
 }
 
 const getGithubAPIUri = (userName) => {
-  debugger
   const encoded = userName.replaceAll(" ", "+")
   const uri = `https://api.github.com/search/users?q=${encoded}+in:name`
   return uri
 }
 
 const getGithubRepoAtThisPointLink = (hash) => {
-  return `https://github.com/barhoring/sick-fits-backend/tree/${hash}`
+  return `${githubLink}/${userName}/${repoName}/tree/${hash}`
 }
 
-export { fetchRawGithubFile, getGithubAPIUri, getGithubRepoAtThisPointLink }
+const getChapterUri = (hash) => {
+  return `${GITHUB_CONTENT_BASE}/${userName}/${chapterRepo}/master/${hash}`
+}
+
+export {
+  fetchRawGithubFile,
+  getGithubAPIUri,
+  getGithubRepoAtThisPointLink,
+  getChapterUri,
+}

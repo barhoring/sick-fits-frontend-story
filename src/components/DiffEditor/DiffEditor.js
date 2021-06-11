@@ -36,6 +36,8 @@ const DiffEditor = ({
   const [modifiedText, setModifiedText] = useState(null)
 
   useEffect(() => {
+    console.log(modifiedFilePath, originalFilePath)
+    debugger
     axios
       .all([axios.get(modifiedFilePath), axios.get(originalFilePath)])
       .then((values) => {
