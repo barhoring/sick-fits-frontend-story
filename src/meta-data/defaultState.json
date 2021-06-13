@@ -1,72 +1,435 @@
 {
   "commits": {
-    "922c1a1f5aa344ad34d5edf41801713c798b54c2": {
+    "31678f581af6f055fb06822a5ddef2c828e29948": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
       "filesAdded": [
         ".gitignore",
+        ".vscode/extensions.json",
+        ".vscode/settings.json",
+        "README.md",
+        "components/.gitkeep",
+        "components/ErrorMessage.js",
+        "components/styles/.gitkeep",
+        "components/styles/CartStyles.js",
+        "components/styles/CloseButton.js",
+        "components/styles/DropDown.js",
+        "components/styles/Form.js",
+        "components/styles/ItemStyles.js",
+        "components/styles/NavStyles.js",
+        "components/styles/OrderItemStyles.js",
+        "components/styles/OrderStyles.js",
+        "components/styles/PaginationStyles.js",
+        "components/styles/PriceTag.js",
+        "components/styles/SickButton.js",
+        "components/styles/Supreme.js",
+        "components/styles/Table.js",
+        "components/styles/Title.js",
+        "components/styles/nprogress.css",
+        "config.js",
+        "lib/.gitkeep",
+        "lib/withData.js",
         "package-lock.json",
         "package.json",
-        "public/index.html",
-        "src/index.js"
+        "pages/.gitkeep",
+        "pages/index.js",
+        "pages/sell.js",
+        "public/static/favicon.png",
+        "public/static/radnikanext-medium-webfont.woff2"
       ],
       "filesModify": [],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "709016edce20bab293452675e98415e0d68bcbef": {
+    "14174a060c99128944b3db4335db8e279a904e22": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
-      "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesAdded": ["components/Page.js"],
+      "filesModify": ["pages/index.js", "pages/sell.js"],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "929df365b8d499080ef3092b8e1364d15e336d25": {
+    "53148239c8b47c4b272ea60ce1e7e8decfd7f655": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
-      "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesAdded": ["pages/_app.js"],
+      "filesModify": ["pages/index.js", "pages/sell.js"],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "6af94c3893e786610ffc76537fa167bbd0502cff": {
+    "8a29d58209a5455c514bfac0a775a9bc3839f2f5": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
-      "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesAdded": ["pages/_document.js"],
+      "filesModify": [],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "c5af1a42804bf94e75149d5bb03ce6aacf4b4478": {
+    "17c4879193eec6d6a4e4e96c55634ce032887c38": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
       "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesModify": ["README.md"],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "ce3ceb6bc3c31bdefbfcec9a1a9aa534e974f034": {
+    "fc3a82c3e1c003ee9850464ec48d80550cb86fab": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
-      "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesAdded": [
+        "components/Header.js",
+        "components/Nav.js",
+        "pages/account.js",
+        "pages/orders.js",
+        "pages/products.js"
+      ],
+      "filesModify": ["components/Page.js"],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "2b0b47f28710c26cf34d165249654404d79c07a1": {
+    "8eb1d4aa1c92d20ca7bb8772379dd77bb3a6710f": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
       "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesModify": ["components/Header.js"],
       "filesDeleted": [],
       "filesRenamed": []
     },
-    "82147387f46f8914faf8ad65e086ee5d2bdcaf8e": {
+    "65db50677246caae27e920457b9ecae69bb9dcda": {
       "authorName": "Bar Horing Amir",
       "autherEmail": "bar.apple@gmail.com",
       "filesAdded": [],
-      "filesModify": ["src/index.js"],
+      "filesModify": ["components/Page.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "9728e6371ef7f84201cd81664b9b389dcdecf6e8": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["pages/_app.js", "pages/_document.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "06db895659ead4cbf3c3d2be5f48f29c78bbded9": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["pages/_document.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "db08ea5ccb9ed91380bf4248cf18f13e858e561f": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["pages/_app.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "906316311a98e4248778c4351a4e22c5445b4f39": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/Products.js"],
+      "filesModify": ["pages/_app.js", "pages/index.js", "pages/products.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "89b22fa958cf9b4b36ceae3f4c7eb77ab734a458": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/Product.js", "lib/formatMoney.js"],
+      "filesModify": ["components/Products.js", "components/styles/ItemStyles.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "9073ab9fc60e2458d85efd0581557f4bacc9d531": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": [
+        "components/Header.js",
+        "components/Nav.js",
+        "components/Product.js"
+      ],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "066fb20da5d3585c03053062dec5848fe362746d": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/CreateProduct.js", "lib/useForm.js"],
+      "filesModify": ["pages/sell.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "23eaee0d1d65e7a4892491fa695fd2804e007244": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/CreateProduct.js", "lib/useForm.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "194bcc8a1c60f1d1e9358eeee985002b4614d502": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/CreateProduct.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "536972cbe9f8b25b129fedcfd3ea13396fe32048": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/CreateProduct.js", "components/Products.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "3eefcb497aae78844f39ca1af775dcc6d8e6d213": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/SingleProduct.js", "pages/product/[id].js"],
+      "filesModify": ["components/CreateProduct.js", "components/Product.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "45033f2831307c07ebeef81d581d9abd0859587b": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/SingleProduct.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "04f7c9152420f25a8f3081645a075f387c9057b9": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/UpdateProduct.js", "pages/update.js"],
+      "filesModify": ["components/Product.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "478a9dcd965c4bf2d088a37eff907d2a888b72a3": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["lib/useForm.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "af675c7bfd5a2974da82e0d102d09037b936ca4b": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/DeleteProduct.js"],
+      "filesModify": ["components/Product.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "753ffbf3b6313fc2fbb0a250becca353e8550087": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/DeleteProduct.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "4baee11dc1937bf4242296e9ef486b74a4f6201f": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/Pagination.js"],
+      "filesModify": ["config.js", "pages/products.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "a9cd1d36d6b80f1649458ba458e457bc44706f1a": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["pages/products/[page].js", "pages/products/index.js"],
+      "filesModify": [],
+      "filesDeleted": ["pages/products.js"],
+      "filesRenamed": []
+    },
+    "0619337759efa4720e9238648c5a54988dba70fb": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/Products.js", "pages/products/index.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "f1b2a02322dddb70d343ddc77e0f8a3797fa6571": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["lib/paginationField.js"],
+      "filesModify": ["components/Pagination.js", "lib/withData.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "4ff9c17a61dc4323bc0392e97b2e2dce328a6a3a": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/User.js", "pages/signin.js"],
+      "filesModify": ["components/Nav.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "226da21c394c1deada9bf75321ee60f9b15b655f": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/SignIn.js"],
+      "filesModify": ["pages/signin.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "9ab7ea7f48213d020423169cbbffcf39887db060": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/SignOut.js"],
+      "filesModify": ["components/Nav.js", "components/User.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "e9c8185659876adfa7ce02381f3ea966af679b4e": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/SignUp.js"],
+      "filesModify": ["pages/signin.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "2ca38ba41d62f135089d97835f9c272bf71c68b7": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/RequestReset.js"],
+      "filesModify": ["pages/signin.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "9708c2b7290990c8f401bdf6fbbd746ea96c7e74": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/Reset.js", "pages/reset.js"],
+      "filesModify": ["components/RequestReset.js", "components/SignUp.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "b7c87ceaa83879ab2dcc7d70106d87e401ebf7e2": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [
+        "components/Cart.js",
+        "components/CartItem.js",
+        "lib/calcTotalPrice.js"
+      ],
+      "filesModify": [
+        "components/Header.js",
+        "components/Pagination.js",
+        "components/User.js"
+      ],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "38d4059f214edb713d3c978583bf9f7f5040083b": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["lib/cartState.js"],
+      "filesModify": [
+        "components/Cart.js",
+        "components/Nav.js",
+        "components/Pagination.js",
+        "lib/paginationField.js",
+        "pages/_app.js"
+      ],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "03a249b4bf6a1d5cdbcd5567ea75a6fc900cee71": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/AddToCart.js"],
+      "filesModify": ["components/Product.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "586fc21164d57f6d8739c2b52c456e924d60d5ba": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/CartCount.js"],
+      "filesModify": ["components/Nav.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "19234d566def22f86440f5118364a1b69ef06b83": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/RemoveFromCart.js"],
+      "filesModify": ["components/Cart.js", "components/Products.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "44e368d16eb2122f29ced9d47e233b9530797f8d": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/RemoveFromCart.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "ad87dc7562475e1769c1ad860f1f95e4efd31c6a": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["components/Search.js"],
+      "filesModify": ["components/Header.js", "components/Product.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "81ca54b1178f42178efbc89fffaf5e2edbdfa8a8": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [".env.local.example", "components/Checkout.js"],
+      "filesModify": [
+        ".gitignore",
+        "components/Cart.js",
+        "components/styles/CartStyles.js"
+      ],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "adbfdaaab7c8dafe586d046bf46b8ad43baaba7c": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/Cart.js", "components/Checkout.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "4c8b5ad607be50aecc67ef72fd0c223a045fe784": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": ["components/Checkout.js"],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "c6584f0547b9627f1199b33823619c98a4252354": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": [],
+      "filesModify": [
+        "components/Checkout.js",
+        "components/Nav.js",
+        "components/Search.js"
+      ],
+      "filesDeleted": [],
+      "filesRenamed": []
+    },
+    "53fa0d3461ab06eab01b070accb2f0f12f1cc937": {
+      "authorName": "Bar Horing Amir",
+      "autherEmail": "bar.apple@gmail.com",
+      "filesAdded": ["pages/order/[id].js"],
+      "filesModify": [],
       "filesDeleted": [],
       "filesRenamed": []
     }
