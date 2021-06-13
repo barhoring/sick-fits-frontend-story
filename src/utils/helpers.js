@@ -23,7 +23,7 @@ const fetchRawGithubFile = (filePath, setText, setFileType) => {
       setFileType(response?.headers?.["content-type"])
     })
     .catch((error) => {
-      // handle error
+      // handle error'
       console.log("Error occured during axios request!")
       console.log(error)
     })
