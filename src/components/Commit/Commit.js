@@ -8,8 +8,8 @@ import { ModifiedContainer } from "../../containers"
 const Commit = ({ hash, prevHash }) => {
   return (
     <>
-      <CommitInfoContainer hash={hash} />
-      {filePath && <Chapter hash={hash} />}
+      {/* <CommitInfoContainer hash={hash} /> */}
+      {/* {filePath && <Chapter hash={hash} />} */}
       <ModifiedContainer hash={hash} prevHash={prevHash} />
       <AddedFilesContainer hash={hash} />
     </>
